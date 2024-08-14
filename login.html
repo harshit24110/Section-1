@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: Roboto;
+        }
+
+        .card {
+            /* border: 2px solid red; */
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+
+            box-shadow: 2px 2px 5px 2px #00000084;
+            background-color: white;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
+            /*background-color: skyblue;*/
+           /* background-image: linear-gradient(60deg, rgb(236, 236, 105), rgb(233, 94, 94), rgb(131, 232, 131));*/
+           background-image: url('https://wallpapersmug.com/download/1920x1080/a3d4db/beautiful-evening-landscape-minimal.jpeg');
+           background-size: cover;
+           background-position: center;
+        }
+
+        .form-title {
+            font-family: Roboto;
+            text-align: center;
+        }
+
+        .text-input,
+        .submit-btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .text-input {
+            padding: 5px 10px;
+            margin-bottom: 20px;
+        }
+
+        .submit-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .link {
+            display: block;
+            color: black;
+            text-decoration: none;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="card">
+
+            <h3 class="form-title">Login Here</h3>
+
+            <label>Email Address</label>
+            <input class="text-input" type="text">
+
+            <label>Password</label>
+            <input class="text-input" type="password">
+
+            <a class="link" href="#">Forgot Password?</a>
+
+            <button class="submit-btn">Submit</button>
+
+            <a class="link" style="text-align: center;" href="#">Create Account</a>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

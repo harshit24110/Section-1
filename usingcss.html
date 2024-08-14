@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+
+    <style>
+        p{
+            font-size: 50px;
+            color: blue;
+            text-decoration: 2px red underline;
+        }
+
+        .mytag{
+            color: blueviolet;
+            font-size: 40px;
+        }
+
+        .mytag3{
+            color: darkgreen;
+        }
+
+        #myid{
+            color: brown;
+            text-align: center;
+            font-size: 30px;
+            border: 2px solid red;
+        }
+
+        .mytag2{
+            color: darksalmon !important;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color: red; text-align: center;">Inline CSS is used to style individual tags only</h1>
+    
+    <p>Internal CSS is used to style entire page once</p>
+
+    <p class="mytag">Name Selector is udes to select elements by their tag name</p>
+
+    <h2 class="mytag mytag3">Class Selectors are used to select the elements by their class name</h2>
+
+    <h3 class="mytag2" id="myid" style="color: chartreuse;">ID Selector is udes to select element by their id name</h3>
+
+    <button class="btn">Click Here</button>
+
+</body>
+</html>
