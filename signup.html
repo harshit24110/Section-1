@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .card{
+             /* border: 2px solid red; */
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+
+            box-shadow: 2px 2px 5px 2px #00000084;
+            background-color: white;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh;
+            /*background-color: skyblue;*/
+           /* background-image: linear-gradient(60deg, rgb(236, 236, 105), rgb(233, 94, 94), rgb(131, 232, 131));*/
+           background-image: url('https://img.lovepik.com/background/20211022/large/lovepik-minimalist-black-background-image_401904071.jpg');
+           background-size: cover;
+           background-position: center;
+        }
+
+        .form-title {
+            font-family: Roboto;
+            text-align: center;
+        }
+
+        .text-input,
+        .submit-btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .text-input {
+            padding: 5px 10px;
+            margin-bottom: 20px;
+        }
+        .submit-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class="card">
+
+            <h3 class="form-title">Sign-up Here</h3>
+            <label>Name</label>
+            <input class="text-input" type="text" >
+
+            <label>Email Address</label>
+            <input class="text-input" type="text">
+
+            <label>Password</label>
+            <input class="text-input" type="password">
+
+            <label>Repeat Password</label>
+            <input class="text-input" type="password">
+
+            <input type="checkbox">
+            <label>Accept</label>
+            <a class="link" style="text-align: center;" href="#">Terms & Conditions</a>
+
+
+           <br><br>
+
+             <button class="submit-btn">Submit</button>
+
+           
+
+        </div>
+
+    </main>
+</body>
+</html>
